@@ -1,0 +1,8 @@
+{
+  "name": "Badminton Feeds",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "9c0d07f2"
+}
