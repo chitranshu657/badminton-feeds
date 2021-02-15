@@ -1,0 +1,162 @@
+.wrapper{
+  &>* {
+    flex: 1;
+  }
+}
+.upcoming{
+    margin-left: 25px;
+    padding: 3px;
+    font-size: 19px;
+    margin-top: 7px;
+    color: #31181b;
+    font-family:cursive;
+}
+.view{
+    margin: 18px 0px 6px 14px;
+    padding: 4px 20px;
+    margin-top:7px;
+    color: #31181b;
+    font-family:cursive;
+    font-size: 18px;
+    width: 100%;
+    margin-left: auto;
+    margin: auto;   
+}
+.box1{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+.card1{
+    border-radius: 25px;
+    border: 3px solid black;
+    /* width: 95%; */
+    margin: 0px 5px 3px 8px;
+    background-color: #f6cad029;
+    width: 92%;
+    margin: auto;
+}
+ion-card-title{
+  color: #31181b;
+  font-family:cursive;
+  font-size: 19px;
+}
+.date{
+  margin-left: 29px;
+  font-size: 13px;
+  color: #31181b;
+  font-family:cursive;
+  margin-left: auto;
+}
+
+ion-card-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2%;
+}
+ion-card-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+}
+
+.description{
+  overflow-y: scroll;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  font-family: revert;
+  line-height: 19px;
+  font-size: 15px;
+  width: 100%;
+  color: #31181b;
+}
+.description::-webkit-scrollbar {
+    display: none;
+  }
+  .btn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 2px solid;
+    padding: 3px;
+    margin: 2px 7px 2px 0px;
+    width: 25%;
+}
+  .btn span{
+    font-size: 8px;
+    width: 100%;
+    color: #f8fbf4;
+    text-align: center;
+    height: 9px;
+    margin-right: 22px;
+    margin-left: auto;
+  }
+  .box2{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 96%;
+      height: 83px;
+}
+  
+  #stars{
+    margin-left: 26px;
+    padding: 4px;
+    font-size: large;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-family: cursive;
+    color: #31181b;
+  }
+  .card2{
+    width: 85%;
+    height: 137%;
+    margin: 0px 18px 63px 21px;
+    padding: 5px;
+    border: 2px solid #171515;
+    background-color:#4d269838;
+    border-radius: 28px;
+  }
+  .card2 img{
+      border-radius: 56px;
+      width: 81%;
+      align-items: center;
+      height: 104%;
+      margin-left: 14px;
+  }
+  .card3{
+    width: 85%;
+    height: 137%;
+    margin: 0px 18px 63px 21px;
+    padding: 5px;
+    border: 2px solid #171515;
+    background-color:#4d269838;
+    border-radius: 28px;
+  }
+  .card3 img{
+    border-radius: 56px;
+    width: 81%;
+    align-items: center;
+    height: 104%;
+    margin-left: 14px;
+  }
+  #achievments{
+        /* margin-top: 23px; */
+        padding: 23px;
+        font-size: 19px;
+        margin-bottom: 10px;
+        height: 0px;
+        font-family: cursive;
+        color: #31181b;
+  }
+  .card4{
+    border-radius: 31px;
+    width: 93%;
+    border: 3px solid black;
+    height: 145px;
+    margin: auto;
+  }
+  .card4 img{
+    height: 162px;
+    padding: 0px;
+    width: 100%;
+  }
