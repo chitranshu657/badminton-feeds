@@ -1,7 +1,10 @@
 {
   "name": "Badminton Feeds",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {}
   },
   "type": "angular",
   "id": "9c0d07f2"
